@@ -82,7 +82,7 @@ user_interrupt(){
         sleep 2
         printf "${reset}\n"
         printf " ${reset} ${ngreen} Thanks for Using This Tool !!${reset}  ${fblue}>"
-        printf " $g[${reset}+${reset} $g]${reset} ${c} Visit github.com/BrunoCiccarino ${reset}"
+        printf " $g[${reset}+${reset} $g]${reset} ${c} Visit github.com/LEOMODZOFC ${reset}"
         printf "${reset}\n"
         exit 1
 
@@ -95,7 +95,7 @@ printf "\n"
 echo -e "$blue
            . .IIIII             .II
   IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII
- .  .IIIIII  II          III$cyan  Gr3n0xX$blue IIIIIIIIII.
+ .  .IIIIII  II          III$cyan  LEO MODS $blue IIIIIIIIII.
     .IIIII.III I      IIIIIIIII$cyan Sec$blue IIIIIIIII  I
    .IIIIII$cyan Hacking$blue II  .IIII$cyan LordPhish$blue III. III
     IIIIIII$cyan  From$blue   ' IIIII I IIIIIIIIIIII III I
@@ -112,9 +112,9 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      ${boldWhite}  .:.  Version 2.0 Beta  .:.  ${resret}\n"
+printf "      ${boldWhite}  .:.  VERSÃO BETA  .:.  ${resret}\n"
 printf "\n"
-printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${resret}${boldYellow} Tool Created by Gr3n0xX ${resret}\n"
+printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${resret}${boldYellow} Tool Created by LEO MODS ${resret}\n"
 printf "\n"
 printf "     ${boldWhiteOnLightRed}:: Disclaimer: Developers assume no liability and are not    ::${resret}\n"
 printf "     ${boldWhiteOnLightRed}:: responsible for any misuse or damage caused by LordPhish.  ::${resret}\n"
@@ -131,7 +131,7 @@ menu() {
     echo -e "${red}      ╔═══════════╗"
     echo -e "${red}    ╔═╝${W}███████████${red}╚═╗"
     echo -e "${red}   ╔╝${W}███████████████${red}╚╗"
-    echo -e "${red}   ║${W}█████${Gr}Gr3n0xX ${reset}${W}████${red}║"
+    echo -e "${red}   ║${W}█████${Gr}LEO MODS ${reset}${W}████${red}║"
     echo -e "${red}   ║${W}█████████████████${red}║    ${cyan}•${red}◈${cyan}•▬ ▬ ▬ ▬ ▬ ▬ ▬•${red}◈${cyan}•▬ ▬ ▬ ▬ ▬ ▬ ▬•${red}◈${cyan}•. ${reset}${red}"
     echo -e "${red}   ║${W}█████████████████${red}║            ${ngreen}${cyan} Lord${reset} ${Green}${red} Phish${reset}${red}"
     echo -e "${red}   ║${W}█${red}╔${W}█████████████${red}╗${W}█${red}║    ${cyan}•${red}◈${cyan}•▬ ▬ ▬ ▬ ▬ ▬ ▬•${red}◈${cyan}•▬ ▬ ▬ ▬ ▬ ▬ ▬•${red}◈${cyan}•. ${reset}${red}"
@@ -147,9 +147,9 @@ menu() {
     echo -e "${red} ╔╝${W}█${red}╚══╦═╦══╦╩═╦═╦═╩╝"
     echo -e "${red}╔╝${W}█████${red}║${W}█${red}║${W}██${red}║${W}██${red}║${W}█${red}║"
     echo -e "${red}║${W}██████${red}║${W}█████████${red}║${reset}"
-   printf "      ${boldWhite}  .:.  Version 2.0 Beta  .:.   ${reset}\n"
+   printf "      ${boldWhite}  .:.  VERSÃO BETA  .:.   ${reset}\n"
 printf "\n"
-printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${reset}${boldYellow} Tool Created by Gr3n0xX/Ch4r0nN ${reset}\n"
+printf "   ${lightGreen}[${boldLightGray}+${lightGreen}]${reset}${boldYellow} Tool Created by LEO MODS OFV ${reset}\n"
 printf "\n"
 printf "${lightGreen}[${boldLightGray}01${lightGreen}]${reset}${cyan} Instagram${reset}      ${lightGreen}[${boldLightGray}18${lightGreen}]${reset}${cyan} eBay   ${reset}          ${lightGreen}[${boldLightGray}35${lightGreen}]${reset}${cyan} Gmail   ${reset}   \n"
 printf "${lightGreen}[${boldLightGray}02${lightGreen}]${reset}${cyan} Facebook${reset}       ${lightGreen}[${boldLightGray}19${lightGreen}]${reset}${cyan} lol  ${reset}            ${lightGreen}[${boldLightGray}36${lightGreen}]${reset}${cyan} Tiktok  ${reset}      \n"
@@ -396,11 +396,11 @@ case $menu_option in
         ;;
     T)
         banner
-        am start -a android.intent.action.VIEW https://t.me/Ch33chSec
+        am start -a android.intent.action.VIEW https://t.me/LEOMODZOFC
         ;;
     F)
         banner
-        am start -a android.intent.action.VIEW https://github.com/BrunoCiccarino
+        am start -a android.intent.action.VIEW https://github.com/LEONARDOMODZ
         ;;
     *)
         printf "\n\n  ${boldRed}[${reset}${boldLightGray}!${reset}${boldRed}]${reset}${boldYellow} Invalid option ${boldRed}[${reset}${boldLightGray}!${reset}${boldRed}]${reset}\n"
