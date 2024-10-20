@@ -1,5 +1,5 @@
 <h2>Hi, I'm Gr3n0xX! <img img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-And I'm create the most complete phishing tool <code><a href="CONTRIBUTE.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a></code>
+E EU ESTOU CRIANDO A FERRAMENTA DE PHISHING MAIS COMPLETA <code><a href="CONTRIBUTE.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a></code>
 
  
  
@@ -7,20 +7,20 @@ And I'm create the most complete phishing tool <code><a href="CONTRIBUTE.md"><im
 <img src="https://img.shields.io/github/issues/Black-Hell-Team/LordPhish?color=red&style=flat-square">
 <img src="https://img.shields.io/github/forks/Black-Hell-Team/LordPhish?color=teal&style=flat-square">
 
-## Tested On:
+## TESTADO E APROVADO:
 ```
 Android 9: 4.4.111-17263988
-Arch 5.11.2 
-Debian 9: 4.9.0-8-amd64
-Debian 10: 4.19.0-8-amd64
-Ubuntu 18.04.1 LTS: 4.15.0-38-generic
-Kali Linux: 4.18.0-kali2-amd64
-Centos 6.10: 2.6.32-754.6.3.el6.x86_64
-Centos 7: 3.10.0-862.3.2.el7.x86_64
-Centos 8: 4.18.0-147.5.1.el8_1.x86_64
+ARCH 5.11.2 
+DEBIAN 9: 4.9.0-8-amd64
+DEBIAN 10: 4.19.0-8-amd64
+UBUNTU 18.04.1 LTS: 4.15.0-38-generic
+KALI LINUX: 4.18.0-kali2-amd64
+CENTOS 6.10: 2.6.32-754.6.3.el6.x86_64
+CENTOS 7: 3.10.0-862.3.2.el7.x86_64
+CENTOS 8: 4.18.0-147.5.1.el8_1.x86_64
 ```
 
-### Usage:
+### INSTALAÇÃO DA FERRAMENTA :
 ```
 apt-get update -y
 apt-get install php -y
@@ -30,16 +30,15 @@ apt-get install git -y
 git clone https://github.com/LeonardoModz/LORD
 cd LORD
 bash setup.sh 
-bash LORD.sh
+bash lord.sh
 ```
 
-## Disclaimer :
-Aurthor assumes that the users would use lordphish **legally**. Aurthor won't be responsible in case of **any damage** caused by **any user** using this source code. This code is open sourced for educational purpose.
-
+## Isenção De Responsabilidade :
+O AURTHOR LEO MODS OFC NÃO PERMITE QUE OS USUÁRIOS USARIAM LORDPHISH **ILEGALMENTE!!***
 
 <a href=https://graysuit.github.io>
 <img src=https://img.shields.io/discord/873544368982720593?label=discord >
-<code><a href="https://t.me/Gr3n0xX" target="_blank">
+<code><a href="https://t.me/LEOMODZOFC" target="_blank">
 <img src="https://img.shields.io/badge/TELEGRAM-GROUP-red?style=for-the-badge&logo=telegram"></a></code>
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 <p align="center">
@@ -48,11 +47,5 @@ Aurthor assumes that the users would use lordphish **legally**. Aurthor won't be
 <code><a href="https://youtube.com/channel/UCxTE4c-xqpAqayme5ps560A" target="_blank"><img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"></a></code>
 
 
-## Thanks :
-<code><a href="https://github.com/thelinuxchoice"><img src="https://img.shields.io/badge/Special Thanks-The Linux Choice-blue"></code></a>
-<code><a href="https://github.com/BrunoCiccarino"><img src="https://img.shields.io/badge/Thanks For Me-Gr3n0xX-blue"></code></a>
-<code><a href="https://github.com/htr-tech"><img src="https://img.shields.io/badge/Thanks For Pages-htr_tech-blue"></code></a>
-<code><a href="https://github.com/A1S0N"><img src="https://img.shields.io/badge/Thanks For Pages-AL1S0N-blue"></code></a>
-<code><a href="https://github.com/Zeushx"><img src="https://img.shields.io/badge/Thanks For Help Me-Zeus-blue"></code></a>
-<code><a href="https://github.com/Ignitetch/AdvPhishing"><img src="https://img.shields.io/badge/Thanks For Pages-Ignitetch-blue"></code></a>
-
+## CRÉDITOS AO CRIADOR :
+BY LEO MODZ OFC https://t.me/LEOMODZOFC
